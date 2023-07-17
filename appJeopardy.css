@@ -1,0 +1,97 @@
+table {
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+  
+tr {
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 10px; Adjust the spacing between columns */
+  }
+  
+
+  
+td {
+    padding: 5px; /* Optional: Add padding to cells */
+    border: 1px solid white; /* Optional: Add borders to cells */
+    width: 150px;
+    height: 110px; 
+    background:   #0e15e9;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+body{
+    background:  #115ff4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+   background-color: #8d2ab5;
+   width: 100px;
+   color: white;
+   box-shadow: none;
+   border-radius: 4px;
+   margin: 10px;   
+}
+
+.header {
+font-weight: bold;
+font-size: larger;
+height: 75px;
+background-color: #0208c8;
+}
+
+h1 {
+    color: white;
+    
+}
+
+[showing = "null"] {
+    font-size: 0;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-content: center;
+}
+
+[showing = "question"] {
+font-size:medium;
+}
+
+[showing = "answer"]{
+    background-color:  #28a200;
+}
+
+.hidden {
+    display: none;
+}
+
+.view {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+
+img.seeLoad {
+    height: 300px;
+    width: 300px;
+}
+
+img.hideLoad {
+    display: none;
+}
+
+button.btnLoad {
+    background-color:  #74119c
+}
